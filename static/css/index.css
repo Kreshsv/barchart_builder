@@ -1,0 +1,72 @@
+.form-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-color: #cc00cc;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+.form-title {
+            font-size: 60px;
+            color: #ff00ff;
+            text-shadow: 2px 2px 4px #000000;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+.form-input {
+            display: block;
+            margin-bottom: 10px;
+            border-color: black;
+            border-radius: 4px;
+        }
+.form-input label {
+            display: inline-block;
+            width: 100px;
+            font-weight: bold;
+            color: #bd68ba;
+        }
+.form-input input[type="text"]
+        {
+            width: 200px;
+            padding: 10px;
+            border: none;
+            background-color: lightpink;
+            border-color: #cc00cc;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+.form-input input[type="number"]
+        {
+            width: 200px;
+            padding: 10px;
+            border: none;
+            background-color: lightpink;
+            border-color: #cc00cc;
+            border-radius: 20px;
+            transition: background-color 0.3s ease;
+        }
+.attractive-button {
+              margin-top: 20px;
+
+              display: inline-block;
+              padding: 12px 24px;
+              font-size: 16px;
+              font-weight: bold;
+              text-align: center;
+              text-decoration: none;
+              border-radius: 6px;
+              background-color: #ff00ff;
+              color: #ffffff;
+              border: none;
+              transition: background-color 0.3s ease;
+              box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+.attractive-button:hover {
+              background-color: #cc00cc;
+              cursor: pointer;
+        }

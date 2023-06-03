@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index page</title>
+    <link rel="stylesheet" href="/static/css/index.css" />
+
+</head>
+<body>
+<div class="form-title">
+        Custom Bar Chart Generator
+</div>
+<div>
+  <canvas id="myChart"></canvas>
+</div>
+    <div class="form-container">
+    <form action="http://127.0.0.1:5000/barchart" method="get">
+       <div class="form-input">
+            <label  for="label1">Label 1:</label>
+            <input type="text" id="label1" name="label1" required><br><br>
+       </div>
+        <div class="form-input">
+            <label for="label2">Label 2:</label>
+            <input type="text" id="label2" name="label2" required><br><br>
+       </div>
+        <div class="form-input">
+            <label for="label3">Label 3:</label>
+            <input type="text" id="label3" name="label3" required><br><br>
+       </div>
+        <div class="form-input">
+            <label for="label4">Label 4:</label>
+            <input type="text" id="label4" name="label4" required><br><br>
+       </div>
+          <div class="form-input">
+            <label for="label5">Label 5:</label>
+            <input type="text" id="label5" name="label5" required><br><br>
+       </div>
+          <div class="form-input">
+            <label for="label6">Label 6:</label>
+            <input type="text" id="label6" name="label6" required><br><br>
+       </div>
+        <div class="form-input">
+            <label for="data1">Data 1:</label>
+            <input type="number" id="data1" name="data1" required><br><br>
+        </div>
+        <div class="form-input">
+            <label for="data2">Data 2:</label>
+            <input type="number" id="data2" name="data2" required><br><br>
+        </div>
+        <div class="form-input">
+            <label for="data3">Data 3:</label>
+            <input type="number" id="data3" name="data3" required><br><br>
+        </div>
+        <div class="form-input">
+            <label for="data4">Data 4:</label>
+            <input type="number" id="data4" name="data4" required><br><br>
+        </div>
+        <div class="form-input">
+            <label for="data5">Data 5:</label>
+            <input type="number" id="data5" name="data5" required><br><br>
+        </div>
+        <div class="form-input">
+            <label for="data6">Data 6:</label>
+            <input type="number" id="data6" name="data6" required><br><br>
+        </div>
+        <div class="form-input">
+            <label for="bgcolor">Background color:</label>
+            <input type="color" id="bgcolor" name="bgcolor" required><br><br>
+        </div>
+         <div class="form-input">
+            <label for="bordercolor">Border Background color:</label>
+            <input type="color" id="bordercolor" name="bordercolor" required><br><br>
+        </div>
+        <div class="form-input">
+            <label for="borderwidth">Border Width:</label>
+            <input type="number" id="borderwidth" name="borderwidth" required><br><br>
+        </div>
+        <div class="form-input">
+            <label for="hoverbgcolor">Hover Background color:</label>
+            <input type="color" id="hoverbgcolor" name="hoverbgcolor" required><br><br>
+        </div>
+        <div class="form-input">
+            <label for="hoverbordercolor"> Hover Border Background color:</label>
+            <input type="color" id="hoverbordercolor" name="hoverbordercolor" required><br><br>
+        </div>
+        <div class="form-input">
+            <label for="hoverborderwidth">Hover Border Width:</label>
+            <input type="number" id="hoverborderwidth" name="hoverborderwidth" required><br><br>
+        </div>
+        <input class="attractive-button" type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+</html>
